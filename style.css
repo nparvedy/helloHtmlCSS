@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+
+header {
+    background-image:url('images/worderwoman.jpg');
+    background-position:center;
+    height: 500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+header h1, p {
+    color: white;
+}
+header li a {
+    color:rgb(182, 182, 182);
+    margin-right:10px;
+}
+
+header ul {
+    display:flex;
+}
+header li {
+    list-style-type: none;
+}
+#en_tete{
+    display:flex;
+    justify-content:space-around;
+    border-bottom:1px solid black;
+    align-items:baseline;
+}
+header h1 {
+    text-align:center;
+}
+#contenu_bas_header{
+    display:flex;
+    justify-content:center;
+
+}
+#bas_header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:1px solid white;
+    width:50%;
+    
+}
+#bas_header p{
+    width:100%;
+    text-align:center;
+}
+#bas_header p, form{
+    padding:10px;
+}
+#logo img{
+    width:15%;
+}
